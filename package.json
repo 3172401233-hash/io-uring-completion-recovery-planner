@@ -1,0 +1,13 @@
+{
+  "name": "io-uring-completion-recovery-planner",
+  "version": "1.0.0",
+  "description": "本地模拟 io_uring 进程崩溃后的提交/完成/取消事件恢复规划",
+  "type": "module",
+  "main": "src/recovery.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24.16.0"
+  }
+}
